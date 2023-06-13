@@ -16,7 +16,11 @@ variable az1 {
   default     = ""
   description = "description"
 }
-
+variable key_pair {
+  type        = string
+  default     = ""
+  description = "description"
+}
 
 variable region {
   type        = string
