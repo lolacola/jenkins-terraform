@@ -18,7 +18,7 @@ variable az1 {
 }
 
 
-variable key_pair {
+variable region {
   type        = string
   default     = ""
   description = "description"
